@@ -1,2 +1,3 @@
 # hair-salonfolder
-hair salon website layout challenge #100Devs
+
+Hair salon website layout challenge #100Devs
