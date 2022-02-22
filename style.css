@@ -1,37 +1,38 @@
 * {
-    font-family: 'Cinzel', serif; 
-    box-sizing: border-box;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+  font-family: 'Cinzel', serif;
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
+
 html {
-    font-size: 69.5%;
+  font-size: 69.5%;
 }
 
 /* Clear fix hack */
 .clearfix:after {
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    line-height: 0;
-    height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-   clear: both;
+  clear: both;
 }
 
 /******************************************
 /* BASE STYLES
 /*******************************************/
 body {
-    background-image: url(/salonimg/heroimage.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: fit-content;
+  background-image: url(/salonimg/heroimage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: fit-content;
 }
 
 
@@ -43,44 +44,45 @@ body {
 /*Header elements goes here.*/
 
 header {
-    float: left;
-    width: 100vw;
-    margin: 2%;
-    font-family: 'Cinzel';
-    align-items:initial;
+  float: left;
+  width: 100vw;
+  margin: 2%;
+  font-family: 'Cinzel';
+  align-items: initial;
 }
 
-.logo > a span {
-    float: left;
-    display: inline-block;
-    padding-right: 5px;
-    font-size: 3rem;
+.logo>a span {
+  float: left;
+  display: inline-block;
+  padding-right: 5px;
+  font-size: 3rem;
 }
 
 span {
-    color: azure;
-    font-weight: 900;
+  color: azure;
+  font-weight: 900;
 }
+
 .upLogo {
-    margin: 0 0;
-    padding: 0px 18px 0 11px;
-    border-radius: 10px 25px 10px 25px;
-    color: purple;
-    font-weight: 900;
-    background-color: rgb(245, 245, 204);
+  margin: 0 0;
+  padding: 0px 18px 0 11px;
+  border-radius: 10px 25px 10px 25px;
+  color: purple;
+  font-weight: 900;
+  background-color: rgb(245, 245, 204);
 }
 
 nav li {
-    float: right;
-    width: 11%;
-    margin: 1.5% 0;
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: white;
+  float: right;
+  width: 11%;
+  margin: 1.5% 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
 }
 
-header li > a {
-    color: azure;
+header li>a {
+  color: azure;
 }
 
 /*Completes the Header and Nav*/
@@ -88,12 +90,10 @@ header li > a {
 /*Beginning of the Main*/
 
 main {
-    clear: both;
+  clear: both;
 }
 
-footer {
-
-}
+footer {}
 
 /******************************************
 /* ADDITIONAL STYLES - Media Query
@@ -111,13 +111,13 @@ footer {
 }
 
 @media all and (max-width: 700px) {
-    logo > a span {
-        font-size: 4.5rem;
-    }
-    nav li {
-        width: 7%;
-        margin: .9%;
-        font-size: .7rem;
-    }
+  logo > a span {
+    font-size: 4.5rem;
+  }
+  nav li {
+    width: 7%;
+    margin: .9%;
+    font-size: .7rem;
+  }
 }
 */
